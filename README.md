@@ -15,7 +15,7 @@ Using Machine Learning and Neural Networks for this project, I used the features
 * Initial preparation for the Sequential Neural Network specified 43 input features, into three processing layers that began with 80 neurons and decreased to 30 and 15, and a single output layer.
 * The target performance of 75% accuracy was not met (72.75%).
 * Further testing was done with three dynamic tuned models that statically and dynamically selected inputs, layers, neurons, and activations. These attempts yeilded accuracy results of:
-** First Model: 73.49%
-** Second Model: 73.17%
-** Third Model: 73.51%
+  * First Model: 73.49%
+  * Second Model: 73.17%
+  * Third Model: 73.51%
 * Although accuracy was only improved marginally, the total loss of the dynamic deep learning models did offer an excellent decrease in the Loss factor.
