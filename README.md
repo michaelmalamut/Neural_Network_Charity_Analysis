@@ -8,14 +8,14 @@ Using Machine Learning and Neural Networks for this project, I used the features
 
 * Variable that was considered as the target for my model: IS_SUCCESSFUL Column
 * Variables that were considered features for my model: Every Column except for IS_SUCCESSFUL which is our target and the ones we will drop
-* Variable that were neither targets or features for the dataset: Columns that I dropeed are EIN, NAME because they will have little to no impact om our outcome
+* Variable that were neither targets or features for the dataset: Columns that I dropped are EIN, NAME because they will have little to no impact om our outcome
 
 ### Compiling, Training, and Evaluating the Model
 
 * Initial preparation for the Sequential Neural Network specified 43 input features, into three processing layers that began with 80 neurons and decreased to 30 and 15, and a single output layer.
-* The target performance of 75% accuracy was not met (72.75%).
+* The target performance of 75% accuracy was not met (72.57%).
 * Further testing was done with three dynamic tuned models that statically and dynamically selected inputs, layers, neurons, and activations. These attempts yeilded accuracy results of:
-  * First Model: 73.49%
-  * Second Model: 73.17%
-  * Third Model: 73.51%
+  * First Model: 72.57%
+  * Second Model: 72.76%
+  * Third Model: 72.55%
 * Although accuracy was only improved marginally, the total loss of the dynamic deep learning models did offer an excellent decrease in the Loss factor.
